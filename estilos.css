@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:silver;
+}
+
+#membrete{
+background:#9C9C9B;
+display:flex;
+    flex-direction:row;
+    padding:2% 3%;
+    
+}
+
+#logo{
+    height:150px;
+    margin-right:20px;
+}
+
+#logo img{
+    height:inherit;
+}
+
+#nombre{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-size:20px;
+    color:#0d6b34;
+    text-shadow: 0 0 3px #C12427;
+    margin:auto;
+}
+
+#nav{
+    background-color: peachpuff;
+    
+}
+
+main{
+    background-color: pink;
+    height:300px;
+}
+
+footer{
+    background: olive;
+    height:50px;
+}
