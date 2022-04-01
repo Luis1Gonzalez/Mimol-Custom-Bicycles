@@ -35,7 +35,6 @@ display:flex;
 }
 
 #nav{
-    background-color: peachpuff;  
     padding:0 2px;  
 }
 
@@ -47,6 +46,17 @@ display:flex;
 #nav ul li{
     padding: 0 2%;
     margin:2%;
+}
+
+#nav ul li a{
+    text-decoration:none;
+    color:#000;
+}
+
+#nav ul li a:hover{
+    text-decoration:none;
+    color:purple;
+    text-shadow: 0 0 3px blue;;
 }
 
 main{
