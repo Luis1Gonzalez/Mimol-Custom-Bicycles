@@ -35,8 +35,18 @@ display:flex;
 }
 
 #nav{
-    background-color: peachpuff;
-    
+    background-color: peachpuff;  
+    padding:0 2px;  
+}
+
+#nav ul{
+    display:flex;
+    list-style:none;
+}
+
+#nav ul li{
+    padding: 0 2%;
+    margin:2%;
 }
 
 main{
