@@ -5,20 +5,28 @@
 }
 
 body{
-    background:silver;
+    background:#9C9C9B;
+}
+
+header{
+    margin: 20px 0px;
 }
 
 #membrete{
 background:#9C9C9B;
-display:flex;
-    flex-direction:row;
-    padding:2% 3%;
-    
+display:grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: auto;
+grid-template-areas:
+"logo nombre nombre";
+    padding:2% 2%;
+    margin-bottom:5px;    
 }
 
 #logo{
+    grid-area:logo;
     height:150px;
-    margin-right:20px;
+    margin-right:5px;
 }
 
 #logo img{
@@ -26,42 +34,49 @@ display:flex;
 }
 
 #nombre{
+    grid-area:nombre;
+    font-family: 'Amita', cursive;
     font-family: 'Poppins', sans-serif;
     font-family: 'Readex Pro', sans-serif;
-    font-size:14px;
-    color:#0d6b34;
-    text-shadow: 0 0 3px #C12427;
+    font-size:25px;
+    color:#545657;
+    font-weight: bold;
+    text-shadow: 0 3px 3px silver, 0 5px 3px #3c5052;
     margin:auto;
+    text-align:center;
+}
+
+hr{
+    margin:0;
 }
 
 #nav{
-    padding:0 2px;  
+    margin:3px 0;
 }
 
-#nav ul{
-    display:flex;
-    list-style:none;
+.bg-secondary{
+    background-color: #9C9C9B !important;
 }
 
-#nav ul li{
-    padding: 0 2%;
-    margin:2%;
-}
-
-#nav ul li a{
-    text-decoration:none;
-    color:#000;
-}
-
-#nav ul li a:hover{
-    text-decoration:none;
-    color:purple;
-    text-shadow: 0 0 3px blue;;
-}
 
 main{
-    background-color: pink;
-    height:300px;
+    height:300px;    
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main img{
+    width:95%;   
+    box-shadow: 0px 0px 4px white, 0px 0px 9px black; 
+    margin:5px 0;
+}
+
+main p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:blue;;
 }
 
 footer{
