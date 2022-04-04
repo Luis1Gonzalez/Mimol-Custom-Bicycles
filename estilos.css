@@ -63,6 +63,7 @@ hr{
 #redes{
     display:flex;
     flex-direction:row;
+    margin-right: 30px;;
 
 }
 
