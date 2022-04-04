@@ -6,27 +6,27 @@
 
 body{
     background:#9C9C9B;
+    padding-top:5px;
 }
 
 header{
-    margin: 20px 0px;
+    margin: 0px 0 20px 0px;
 }
 
 #membrete{
 background:#9C9C9B;
 display:grid;
-grid-template-columns: 1fr 2fr;
+grid-template-columns: 20% 80%;
 grid-template-rows: auto;
 grid-template-areas:
 "logo nombre nombre";
     padding:2% 2%;
-    margin-bottom:5px;    
 }
 
 #logo{
     grid-area:logo;
-    height:70px;
-    margin-right:5px;
+    height:90px;
+    text-align: center;
 }
 
 #logo img{
@@ -57,7 +57,6 @@ hr{
 .bg-secondary{
     background-color: #9C9C9B !important;
 }
-
 
 main{
     height:auto;    
