@@ -112,5 +112,17 @@ footer{
     color:grey;
     font-size:35px;
 margin:5px 20px;
-text-shadow: 0 0 4px green;
+}
+
+.fa-twitter-square{
+    color:#1D9BF0;
+}
+
+.fa-facebook{
+color:#4867AA;
+}
+
+.fa-instagram-square{
+    color:#D50858;
+    text-shadow: -2px 2px 2px #E8C927;
 }
