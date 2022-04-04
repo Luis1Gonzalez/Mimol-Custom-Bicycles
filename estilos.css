@@ -84,7 +84,7 @@ main p{
 
 footer{
     background: silver;
-    height:80px;
+    height:100px;
     color:grey;
     display:flex;
     flex-direction:column;
@@ -96,7 +96,7 @@ footer{
 
 #copy{
     font-size:12px;
-    margin: 5px 0;
+    margin: 15px 0 5px 0;
     font-style: italic;
     font-weight: 800;
 }
@@ -110,7 +110,7 @@ footer{
 #redes a{
 
     color:grey;
-    font-size:25px;
+    font-size:35px;
 margin:5px 20px;
 text-shadow: 0 0 4px blue;
 }
