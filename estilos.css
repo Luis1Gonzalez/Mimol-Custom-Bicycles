@@ -63,28 +63,39 @@ hr{
 #redes{
     display:flex;
     flex-direction:row;
-    margin-right: 30px;;
-
+    margin-right: 5px;
 }
 
 #redes a{
 
     color:grey;
     font-size:35px;
-margin:5px 15px;
+margin:5px 10px;
+text-shadow: 0 0 7px #444;
 }
 
 .fa-twitter-square{
+    //color:#1D9BF0;
+}
+
+.fa-twitter-square:hover{
     color:#1D9BF0;
 }
 
 .fa-facebook{
-color:#4867AA;
+//color:#4867AA;
 }
 
+.fa-facebook:hover{
+    color:#4867AA;
+    }
+
 .fa-instagram-square{
+    //color:#D50858;
+}
+
+.fa-instagram-square:hover{
     color:#D50858;
-    text-shadow: -2px 2px 2px #E8C927;
 }
 
 main{
