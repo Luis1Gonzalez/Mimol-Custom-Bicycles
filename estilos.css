@@ -74,25 +74,13 @@ margin:5px 10px;
 text-shadow: 0 0 7px #444;
 }
 
-.fa-twitter-square{
-    //color:#1D9BF0;
-}
-
 .fa-twitter-square:hover{
     color:#1D9BF0;
-}
-
-.fa-facebook{
-//color:#4867AA;
 }
 
 .fa-facebook:hover{
     color:#4867AA;
     }
-
-.fa-instagram-square{
-    //color:#D50858;
-}
 
 .fa-instagram-square:hover{
     color:#D50858;
