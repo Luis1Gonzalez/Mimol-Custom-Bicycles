@@ -102,6 +102,7 @@ margin:15px;
 
 .carousel-item{
     width:100%;
+    object-fit: contain;
 }
 
 .carousel-item img{
