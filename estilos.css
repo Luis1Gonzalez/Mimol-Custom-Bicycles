@@ -96,7 +96,8 @@ main{
 
 #carrusel{
     width:95%;
-    height:260px;
+    height:230px;
+    margin-bottom:20px;
 }
 
 .carousel-item{
