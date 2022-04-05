@@ -96,16 +96,16 @@ main{
 
 #carrusel{
     width:95%;
-    height:230px;
+    height:208px;
     margin-bottom:50px;
 }
 
 .carousel-item{
-    width:95%%;
+    width:100%;
 }
 
 .carousel-item img{
-    width:100%%;
+    width:100%;
 }
 
 main img{
