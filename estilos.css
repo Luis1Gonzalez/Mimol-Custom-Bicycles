@@ -125,20 +125,38 @@ main p{
 
 footer{
     background: silver;
-    height:100px;
+    height:80px;
     color:grey;
     display:flex;
     flex-direction:column;
     align-items: center;
     padding:10px;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
+}
+
+#mapa{    
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    font-size:12px;
+    font-style: italic;
+}
+
+
+
+.map a{
+    color:#444;
+    text-decoration:none;
 }
 
 #copy{
     font-size:12px;
-    margin: 15px 0 5px 0;
+    margin: 5px 0 5px 0;
     font-style: italic;
     font-weight: 800;
 }
 
+hr{
+    color:rgb(10, 107, 10);
+}
