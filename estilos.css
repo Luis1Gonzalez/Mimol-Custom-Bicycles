@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#9C9C9B;
+    padding-top:5px;
+}
+
+header{
+    margin: 0px 0 20px 0px;
+}
+
+#membrete{
+background:#9C9C9B;
+display:grid;
+grid-template-columns: 20% 80%;
+grid-template-rows: auto;
+grid-template-areas:
+"logo nombre nombre";
+    padding:2% 2%;
+}
+
+#logo{
+    grid-area:logo;
+    height:90px;
+    text-align: center;
+}
+
+#logo img{
+    height:inherit;
+}
+
+#nombre{
+    grid-area:nombre;
+    font-family: 'Amita', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-size:25px;
+    color:#545657;
+    font-weight: bold;
+    text-shadow: 0 3px 3px silver, 0 5px 3px #3c5052;
+    margin:auto;
+    text-align:center;
+}
+
+hr{
+    margin:0;
+}
+
+#nav{
+    margin:3px 0;
+    display:flex;
+    flex-direction:row;
+}
+
+.bg-secondary{
+    background-color: #9C9C9B !important;
+}
+
+#redes{
+    display:flex;
+    flex-direction:row;
+    margin-right: 5px;
+}
+
+#redes a{
+    color:grey;
+    font-size:35px;
+margin:5px 10px;
+text-shadow: 0 0 7px #444;
+}
+
+.fa-twitter-square:hover{
+    color:#1D9BF0;
+}
+
+.fa-facebook:hover{
+    color:#4867AA;
+    }
+
+.fa-instagram-square:hover{
+    color:#D50858;
+}
+
+main{
+    height:auto;    
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px 0;
+}
+
+#carrusel{
+    width:95%;
+margin:15px;
+
+}
+
+.carousel-item{
+    width:100%;
+    object-fit: contain;
+}
+
+.carousel-item img{
+    width:100%;
+}
+
+main img{
+    width:95%;   
+    box-shadow: 0px 0px 4px white, 0px 0px 9px black; 
+    margin: 0  0 30px  0;
+
+}
+
+main p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:blue;
+    margin-top:0px;
+}
+
+footer{
+    background: silver;
+    height:80px;
+    color:grey;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:10px;
+    justify-content: space-around;    
+}
+
+#mapa{    
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    font-size:12px;
+    font-style: italic;
+}
+
+
+
+.map a{
+    color:#444;
+    text-decoration:none;
+}
+
+#copy{
+    font-size:12px;
+    margin: 5px 0 5px 0;
+    font-style: italic;
+    font-weight: 800;
+}
+
