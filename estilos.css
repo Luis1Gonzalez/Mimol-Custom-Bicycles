@@ -97,8 +97,7 @@ main{
 #carrusel{
     width:95%;
     height:230px;
-margin:15px;
-background-color: #D50858;
+    margin:15px;
 }
 
 .carousel-item{
