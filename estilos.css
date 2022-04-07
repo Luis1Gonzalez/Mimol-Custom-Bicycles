@@ -158,5 +158,29 @@ footer{
 }
 
 hr{
-    color:rgb(10, 107, 10);
+    color:blue;
+    width:100;
+}
+
+h2{
+color:blue;
+font-weight:bold;
+margin: 20px 0 30px 0;
+text-align:center;
+}
+
+#proyecto{
+display:flex;
+flex-direction:column;
+align-content: space-around ;
+}
+
+.proyecto p{
+  margin: 10px 15px;  
+  text-align: justify;
+  color: #444;
+}
+
+.proyecto img{
+    margin-bottom:5px;
 }
