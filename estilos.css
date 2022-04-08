@@ -118,12 +118,10 @@ main{
 width:100%;
 height: auto;
 margin:15px;
-background-color: salmon;
 }
 
 .articulo{
     width:95%;
-    background-color: aqua;
     margin:2.5%;
 }
 .articulo img{
@@ -134,7 +132,7 @@ background-color: salmon;
 }
 
 .articulo h3{
-    color:blue;
+    color:rgb(65, 65, 215);
     margin: 10px 0 20px 0;
     text-align:center;
     }
